@@ -6,6 +6,8 @@ import spark.template.mustache.MustacheTemplateEngine;
 
 import java.util.HashMap;
 
+import static com.sun.org.apache.xml.internal.serializer.utils.Utils.messages;
+
 public class Main {
     //creating a hashmap of users. i can add to the users later.
     // includes key and value.
@@ -53,6 +55,19 @@ public class Main {
                     Session session = request.session();
                     String name = session.attribute("username");
                     User user = users.get(name);
+                    String message = request.queryParams("message");
+                    User typist = new User (messageNo, updatedText);
+                    user.getPasswords().add(typist);
+                    return "";
+
+
+                })
+        );
+        Spark.post(
+                "/message",
+                ((request, response) -> {
+                    Session session = request.session();
+                    String message = session.attribute("message");
                     String loginName = request.queryParams("loginName");
                     String password = request.queryParams("password");
                     User typist = new User (loginName, password);

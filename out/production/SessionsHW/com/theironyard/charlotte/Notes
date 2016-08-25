@@ -1,0 +1,4 @@
+//                        users.put(user.name, user); // add current user to existing hashmap
+
+                    // hashmap variable.put(variable stored from html, variable);
+                    //dont put equal sign, put the . to call it from the hashmap
