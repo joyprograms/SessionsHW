@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="396b5417-1495-4b24-9edd-62bd4df62903" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/templates/home.html" afterPath="$PROJECT_DIR$/resources/templates/home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/theironyard/charlotte/Main.java" afterPath="$PROJECT_DIR$/src/com/theironyard/charlotte/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/theironyard/charlotte/User.java" afterPath="$PROJECT_DIR$/src/com/theironyard/charlotte/User.java" />
     </list>
     <ignored path="SessionsHW.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,8 +29,8 @@
       <file leaf-file-name="home.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/templates/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
-              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+            <state relative-caret-position="346">
+              <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -507,8 +505,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/templates/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        <state relative-caret-position="346">
+          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
           <folding />
         </state>
       </provider>
