@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+</head>
+<body>
+
+
+{{^name}}
+<form action="/login" method="post"> 
+    <input type="text" placeholder="Enter your name" name="loginName"/> 
+    <button type="submit">Login</button>
+</form>
+<form action="/create-user"  method="post">
+    <input type="text" placeholder="Enter your password" password="password"/> 
+</form>
+{{/name}}
+
+<form>
+    <input type="text" placeholder="Enter your message" message="Stuff"/> 
+</form>
+
+<form action="/delete" method="post"> 
+    <button type="submit">delete</button>
+
+</form>
+
+<form action="/logout" method="post">     <button type="submit">Logout</button> </form>
+</body>
+</html>
